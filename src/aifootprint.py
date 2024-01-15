@@ -1,7 +1,5 @@
 import streamlit as st
-import pandas as pd
 
-DATAPATH = "./data/"
 
 if __name__ == "__main__":
     submited = False
@@ -11,8 +9,6 @@ if __name__ == "__main__":
              ## Compute the CO2 footprint of your AI algorithm.
              """)
 
-    data_cpu = pd.read_csv(DATAPATH + "TDP_cpu.csv")
-    data_gpu = pd.read_csv(DATAPATH + "TDP_gpu.csv")
     device_types = ("CPU", "GPU", "Both")
     cpu_models = {
         "Core i3-10100": 0.0163,
