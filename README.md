@@ -8,7 +8,7 @@ pip install streamlit
 ```
 To download and run AI-footprint, run:
 ```bash
-git clone https://github.com/brayevalerien/AI-footpring.git
+git clone https://github.com/brayevalerien/AI-footprint.git
 cd AI-footprint
 streamlit run ./src/aifootprint.py
 ```
