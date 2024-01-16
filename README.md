@@ -1,5 +1,6 @@
 # AI-footprint
-A small app that computes the CO$_2$ emissions of your AI algorithm.
+A small app that computes the CO2 emissions of your AI algorithm.
+![screenshot](./readme_screenshot.png)
 
 ## Set up
 This application uses [Streamlit](https://streamlit.io). Make sure you have it installed on your computer or run the following command (more info [here](https://docs.streamlit.io/get-started/installation)):
@@ -15,10 +16,10 @@ streamlit run ./src/aifootprint.py
 It will start the local server, that you can access by following the link provided by Streamlit. Note that once the application has been download, only the last command is necessary.
 
 ## Usage
-To get an estimation of the CO$_2$ emissions of your model, fill out the form in the side bar and click on the "Submit" button. If your device model or server region is not available, choose the closest option to get the best estimation possible.
+To get an estimation of the CO2 emissions of your model, fill out the form in the side bar and click on the "Submit" button. If your device model or server region is not available, choose the closest option to get the best estimation possible.
 
 ## References
-The method used to compute CO$_2$ emissions is based on the following the works:
+The method used to compute CO2 emissions is based on the following the works:
 - AI Index Report 2023 ; Artificial Intelligence Index — aiindex.stanford.edu. https://aiindex.stanford.edu/report/.
 - Green Algorithms — calculator.green-algorithms.org. https://calculator.green-algorithms.org
 - Joséphine Boone. L’IA pointée du doigt pour son coût environnemental astronomique — lesechos.fr. https://www.lesechos.fr/tech-medias/
